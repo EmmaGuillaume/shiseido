@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'NotoBlack';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Black.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Black.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoBlackItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-BlackItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-BlackItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoBold';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Bold.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoBoldItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-BoldItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-BoldItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoExtraBold';
+    font-style: normal;
+    src: url('/fonts/NotoSans-ExtraBold.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-ExtraBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoExtraBoldItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-ExtraBoldItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-ExtraBoldItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoExtraLight';
+    font-style: normal;
+    src: url('/fonts/NotoSans-ExtraLight.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-ExtraLight.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoExtraLightItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-ExtraLightItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-ExtraLightItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Noto';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Regular.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Italic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Italic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoLight';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Regular.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoLightItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-LightItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-LightItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoMedium';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Medium.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Medium.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoMediumtItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-MediumItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-MediumItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoSemiBold';
+    font-style: normal;
+    src: url('/fonts/NotoSans-SemiBold.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-SemiBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoSemiBoldtItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-SemiBoldItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-SemiBoldItalic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoThin';
+    font-style: normal;
+    src: url('/fonts/NotoSans-Thin.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-Thin.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NotoThinItalic';
+    font-style: normal;
+    src: url('/fonts/NotoSans-ThinItalic.ttf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/NotoSans-ThinItalic.ttf') format('truetype')
+}

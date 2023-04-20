@@ -23,10 +23,10 @@
         align-items: center;
         justify-content: center;
         border-radius: 100%;
+        transition: all 0.2s;
     }
     a:hover {
         color: white;
-        transition: all 0.2s;
     }
     a::before {
         content: "";
@@ -40,7 +40,8 @@
         background: #d6001c;
         border-radius: 100%;
         z-index: -1;
-        transition: all 0.2s;
+        transition: all 0.4s;
+        transition-timing-function: cubic-bezier(1, -0.05, 0, 1.76);
     }
     a:hover::before {
         width: 101%;

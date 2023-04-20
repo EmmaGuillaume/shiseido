@@ -5,7 +5,7 @@
     }
 </script>
 
-<section class="fixed top-0 left-0 w-screen">
+<section class="fixed top-0 left-0 w-screen lg:hidden">
     <div class=" bg-white flex justify-between items-center px-4 py-2">
         <button on:click={handleClickBurger} class="font-noto">
             {#if hambOpen}

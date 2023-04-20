@@ -30,6 +30,7 @@ export default {
         'noto-semi-bold-italic': 'NotoSemiBoldItalic',
         'noto-thin': 'NotoThin',
         'noto-thin-italic': 'NotoThinItalicc',
+        'shiseido': 'ShiseidoNeue',
       }
     },
   },

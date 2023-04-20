@@ -145,3 +145,11 @@
     /* IE9 Compat Modes */
     src: local(), url('/fonts/NotoSans-ThinItalic.ttf') format('truetype')
 }
+
+@font-face {
+    font-family: 'ShiseidoNeue';
+    font-style: normal;
+    src: url('/fonts/ShiseidoNeue.otf');
+    /* IE9 Compat Modes */
+    src: local(), url('/fonts/ShiseidoNeue.otf') format('opentype')
+}

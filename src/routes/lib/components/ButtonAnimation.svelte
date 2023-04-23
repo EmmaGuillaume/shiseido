@@ -15,7 +15,7 @@
         position: relative;
         color: #d6001c;
         z-index: 0;
-        border: 2px solid #d6001c;
+        border: 1px solid #d6001c;
         background: transparent;
         /* overflow: hidden; */
         text-decoration: none;
@@ -44,8 +44,8 @@
         transition-timing-function: cubic-bezier(1, -0.05, 0, 1.76);
     }
     a:hover::before {
-        width: 101%;
-        height: 101%;
+        width: 102%;
+        height: 102%;
         top: -1px;
         left: -1px;
         right: 0px;

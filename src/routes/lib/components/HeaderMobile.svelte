@@ -34,12 +34,8 @@
         </div>
     </div>
 
-    <div
-        class={`burger w-full bg-red-600 ${
-            hambOpen === true ? "active" : "false"
-        }`}
-    >
-        <div class="min-h-screen flex flex-col gap-20 pt-20 pb-28 px-10">
+    <div class={`burger w-full z-50 ${hambOpen === true ? "active" : "false"}`}>
+        <div class="z-50 min-h-screen flex flex-col gap-20 pt-20 pb-28 px-10">
             <div class="flex gap-1">
                 <img src="/images/icons/search.svg" alt="" />
                 <input

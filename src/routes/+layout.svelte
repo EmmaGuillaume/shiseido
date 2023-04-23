@@ -6,6 +6,6 @@
 
 <HeaderMobile />
 <HeaderDesktop />
-<main class="bg-white h-screen">
+<main class="-z-10 bg-white h-screen md:px-2 lg:px-12 xl:px-20 2xl:px-36">
     <slot />
 </main>

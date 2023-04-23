@@ -11,6 +11,9 @@ export default {
       'darkred': '#A70319',
     },
     extend: {
+      backgroundImage: {
+        'home-girl': "url('/images/photos/benefiance-model-photo-d-2.jpg')",
+      },
       fontFamily: {
         'noto': 'Noto',
         'noto-italic': 'NotoItalic',

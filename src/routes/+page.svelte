@@ -1,11 +1,12 @@
 <script>
     import ButtonAnimation from "./lib/components/ButtonAnimation.svelte";
+    import ItemsButton from "./lib/components/ItemsButton.svelte";
 
     // import buttonContent from "./lib/components/ButtonAnimation.svelte";
 </script>
 
 <section class="pt-24 px-8 flex flex-col items-center">
-    <div class="flex justify-center w-10/12 mb-12">
+    <div class="flex justify-center w-10/12 mb-12 md:w-7/12 2xl:w-3/12 lg:mt-8">
         <h2 class="text-2xl font-shiseido text-center md:text-4xl">
             BEAUTY INNOVATIONS FOR A BETTER WORLD
         </h2>
@@ -40,5 +41,9 @@
             src="/images/photos/benefiance-model-photo-d-1.png"
             alt=""
         />
+    </section>
+
+    <section class="">
+        <ItemsButton />
     </section>
 </section>

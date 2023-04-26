@@ -1,6 +1,6 @@
 <script>
-    import ButtonAnimation from "./lib/components/ButtonAnimation.svelte";
-    import ItemsButton from "./lib/components/ItemsButton.svelte";
+    import ButtonAnimation from "$lib/components/ButtonAnimation.svelte";
+    import ItemsButton from "$lib/components/ProductList.svelte";
 
     // import buttonContent from "./lib/components/ButtonAnimation.svelte";
 </script>

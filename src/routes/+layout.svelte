@@ -1,7 +1,7 @@
 <script lang="ts">
+    import HeaderDesktop from "$lib/components/HeaderDesktop.svelte";
+    import HeaderMobile from "$lib/components/HeaderMobile.svelte";
     import "../app.css";
-    import HeaderDesktop from "./lib/components/HeaderDesktop.svelte";
-    import HeaderMobile from "./lib/components/HeaderMobile.svelte";
 </script>
 
 <HeaderMobile />

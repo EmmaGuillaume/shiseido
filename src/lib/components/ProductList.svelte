@@ -3,9 +3,11 @@
     import ProductCard from "./ProductCard.svelte";
 </script>
 
-<section class="flex gap-4">
+<article class="w-full overflow-x-auto">
+    <div class="flex gap-5">
+        {#each productList as singleProduct}
+            <ProductCard product={singleProduct} />
+        {/each}
+    </div>
     <!-- comme un for i  -->
-    {#each productList as singleProduct}
-        <ProductCard product={singleProduct} />
-    {/each}
-</section>
+</article>

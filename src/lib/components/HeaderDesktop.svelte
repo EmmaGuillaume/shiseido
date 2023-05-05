@@ -7,7 +7,7 @@
 </script>
 
 <section
-    class="header fixed h-24 top-0 left-0 w-screen bg-white flex justify-between items-center px-8 py-2 uppercase font-noto"
+    class="z-50 header fixed h-24 top-0 left-0 w-screen bg-white flex justify-between items-center px-8 py-2 uppercase font-noto"
 >
     <nav class="flex gap-8 xl:gap-14">
         <a href="/.">Skincare</a>

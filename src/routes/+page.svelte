@@ -6,7 +6,7 @@
 </script>
 
 <section class="pt-24 px-8 flex flex-col items-center">
-    <div class="flex justify-center w-10/12 mb-12 md:w-7/12 2xl:w-3/12 lg:mt-8">
+    <div class="flex justify-center w-10/12 mb-12 md:w-7/12 2xl:w-4/12 lg:mt-8">
         <h2 class="text-2xl font-shiseido text-center md:text-4xl">
             BEAUTY INNOVATIONS FOR A BETTER WORLD
         </h2>
@@ -43,7 +43,8 @@
         />
     </section>
 
-    <section class="">
+    <section class="my-28">
+        <p class="font-shiseido text-2xl py-12">Find our bestsellers</p>
         <ItemsButton />
     </section>
 </section>

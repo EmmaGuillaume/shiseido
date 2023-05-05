@@ -43,7 +43,7 @@
         />
     </section>
 
-    <section class="my-28 w-fit">
+    <section class="my-28 w-full">
         <p class="font-shiseido text-2xl py-12">Find our bestsellers</p>
         <ItemsButton />
     </section>

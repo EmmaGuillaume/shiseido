@@ -3,7 +3,7 @@
     import ProductCard from "./ProductCard.svelte";
 </script>
 
-<article class="w-full overflow-x-auto">
+<article class="w-full overflow-x-auto lg:overflow-visible">
     <div class="flex gap-5">
         {#each productList as singleProduct}
             <ProductCard product={singleProduct} />

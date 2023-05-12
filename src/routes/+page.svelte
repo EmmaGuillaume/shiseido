@@ -43,8 +43,38 @@
         />
     </section>
 
-    <section class="my-28 w-full">
-        <p class="font-shiseido text-2xl py-12">Find our bestsellers</p>
-        <ItemsButton />
+    <section class="my-28 w-full lg:flex lg:justify-center">
+        <div>
+            <p class="font-shiseido text-2xl py-12">Find our bestsellers</p>
+            <ItemsButton />
+        </div>
     </section>
+
+    <article>
+        <div class="px-8 flex flex-col gap-4">
+            <p class="font-shiseido text-sm">About Us</p>
+            <p class="font-shiseido text-2xl">
+                For 150 years, Shiseido has pioneered the future of skincare to
+                bring a truly holistic experience to your beauty routine.
+            </p>
+        </div>
+
+        <div class="!w-screen h-[500px] relative my-8">
+            <img
+                class="about-us--img absolute z-0 w-6/12 left-20 lg:"
+                src="images/photos/about-us-cream.jpg"
+                alt=""
+            />
+            <img
+                class="absolute z-20 w-9/12 right-0 top-20"
+                src="/images/photos/about-us-red.jpg"
+                alt=""
+            />
+            <img
+                class="absolute z-0 w-6/12 bottom-0 left-5"
+                src="/images/photos/about-us-cells.jpg"
+                alt=""
+            />
+        </div>
+    </article>
 </section>

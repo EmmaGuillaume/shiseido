@@ -28,7 +28,7 @@
                     alt="Rechercher un article"
                 />
             </a>
-            <a href="/.">
+            <a href="/cart">
                 <img src="/images/icons/shop.svg" alt="Aller dans le panier" />
             </a>
         </div>

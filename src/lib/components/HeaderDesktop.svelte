@@ -25,8 +25,7 @@
     <nav class="flex gap-8 xl:gap-14">
         <a href="/.">Gifts and Sets</a>
         <a href="/.">search</a>
-        <button on:click={cartOnClick} class="uppercase">Cart({article})</button
-        >
+        <a href="/cart">Cart({article})</a>
         <a href="/.">search</a>
     </nav>
 </section>

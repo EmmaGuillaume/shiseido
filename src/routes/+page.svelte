@@ -50,28 +50,30 @@
         </div>
     </section>
 
-    <article>
-        <div class="px-8 flex flex-col gap-4">
+    <article class="relative">
+        <div class="px-8 flex flex-col gap-4 z-20">
             <p class="font-shiseido text-sm">About Us</p>
-            <p class="font-shiseido text-2xl">
+            <p class="font-shiseido text-2xl lg:w-4/12">
                 For 150 years, Shiseido has pioneered the future of skincare to
                 bring a truly holistic experience to your beauty routine.
             </p>
         </div>
 
-        <div class="!w-screen h-[500px] relative my-8">
+        <div
+            class=" absolute !w-screen h-[500px] my-8 lg:!w-full lg:h-[900px] lg:top-20 lg:-z-10"
+        >
             <img
-                class="about-us--img absolute z-0 w-6/12 left-20 lg:"
+                class="about-us--img absolute z-0 w-6/12 left-20 lg:w-3/12 lg:top-0"
                 src="images/photos/about-us-cream.jpg"
                 alt=""
             />
             <img
-                class="absolute z-20 w-9/12 right-0 top-20"
+                class="absolute z-20 w-9/12 right-0 top-20 lg:w-6/12 lg:top-30"
                 src="/images/photos/about-us-red.jpg"
                 alt=""
             />
             <img
-                class="absolute z-0 w-6/12 bottom-0 left-5"
+                class="absolute z-0 w-6/12 bottom-0 left-5 lg:w-4/12"
                 src="/images/photos/about-us-cells.jpg"
                 alt=""
             />

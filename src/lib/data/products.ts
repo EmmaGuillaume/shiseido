@@ -1,4 +1,5 @@
 export type TProduct = {
+    id: number,
     name: string,
     image: string,
     note: number,
@@ -10,6 +11,7 @@ export type TProduct = {
 
 export const productList: TProduct[] = [
     {
+        id:1,
         name: 'Power Infusing Serum',
         image: '/images/products/power-infusing-serum.jpg',
         note: 4.7,
@@ -19,6 +21,7 @@ export const productList: TProduct[] = [
         description: 'Description du produit',
     },
     {
+        id:2,
         name: 'Total Regenerating Cream',
         image: '/images/products/total-regenerating-cream.jpg',
         note: 3,
@@ -28,6 +31,7 @@ export const productList: TProduct[] = [
         description: 'Description du produit 2',
     },
     {
+        id:3,
         name: 'Wrinkle Smoothing Eye Cream',
         image: '/images/products/wrinkle-smoothing-eye-cream.jpg',
         note: 3,
@@ -37,6 +41,7 @@ export const productList: TProduct[] = [
         description: 'Description du produit 2',
     },
     {
+        id:4,
         name: 'Uplifting And Firming Cream Enriched',
         image: '/images/products/uplifting-and-firming-cream-enriched.jpg',
         note: 3,

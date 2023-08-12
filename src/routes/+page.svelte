@@ -96,7 +96,7 @@
       </div>
     </div>
   </article>
-  <article class="flex flex-col w-full gap-16 mt-16 align-top">
+  <article class="flex flex-col w-full gap-16 mt-24 align-top">
     <div class="relative z-20 flex flex-col text-left">
       <p class="text-sm font-shiseido">Explore</p>
       <p class="text-3xl font-shiseido lg:w-3/12">BESTSELLERS</p>
@@ -125,6 +125,5 @@
         <p>Winning Products</p>
       </div>
     </div>
-    <ButtonAnimation>Shop Now</ButtonAnimation>
   </article>
 </section>

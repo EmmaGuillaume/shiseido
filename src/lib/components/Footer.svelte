@@ -43,7 +43,7 @@
         >
         <select
           id="country-select"
-          class="w-full py-2 pl-4 capitalize border lg:w-52 border-primary font-shiseido placeholder:text-primary focus:outline-red"
+          class="w-full py-2 pl-4 capitalize bg-white border lg:w-52 border-primary font-shiseido placeholder:text-primary focus:outline-red"
         >
           {#each countryOptions as countryOption}
             <option value={countryOption.value}>{countryOption.label}</option>
@@ -79,7 +79,7 @@
           placeholder="Your email adress"
         />
         <button
-          class="flex justify-center w-full py-2 uppercase border lg:w-52 border-primary font-shiseido"
+          class="flex justify-center w-full py-2 uppercase border lg:w-52 border-primary font-shiseido hover:bg-light-grey hover:text-red hover:border-secondary"
           type="submit">Submit</button
         >
       </form>

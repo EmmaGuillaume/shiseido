@@ -3,7 +3,6 @@
   import ProductNote from "$lib/components/product/ProductNote.svelte";
   export let product: TProduct;
   const productNote = product.note;
-  console.log(productNote);
 </script>
 
 <a href="./">
@@ -20,16 +19,18 @@
       </div>
       <img src={product.image} alt="" class="w-10/12" />
     </div>
-    <div class="flex items-center gap-2 pt-2">
-      <!-- {#each productNote as singleProduct} -->
-      <!-- {/each} -->
-      <ProductNote />
-      <p class="text-sm">{product.note}</p>
-      <p class="text-xs">(2)</p>
-    </div>
-    <div class="flex flex-col justify-between h-24 font-noto-light w-fit">
-      <p class="text-xl">{product.name}</p>
-      <p class="text-md">${product.price}</p>
+    <div class="flex flex-col justify-between h-36">
+      <div class="flex items-center gap-2 pt-2">
+        <!-- {#each productNote as singleProduct} -->
+        <!-- {/each} -->
+        <ProductNote {product} />
+        <p class="text-sm">{product.note}</p>
+        <p class="text-xs">(2)</p>
+      </div>
+      <div class="flex flex-col justify-end h-24 gap-4 font-noto-light w-fit">
+        <p class="items-start text-xl align-top">{product.name}</p>
+        <p class="text-md">${product.price}</p>
+      </div>
     </div>
   </article>
 </a>

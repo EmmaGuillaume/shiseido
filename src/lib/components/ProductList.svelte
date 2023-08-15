@@ -1,6 +1,6 @@
 <script lang="ts">
   import { productList } from "$lib/data/products";
-  import ProductCard from "./ProductCard.svelte";
+  import ProductCard from "$lib/components/ProductCard.svelte";
 </script>
 
 <article class="w-full overflow-x-auto lg:overflow-visible">

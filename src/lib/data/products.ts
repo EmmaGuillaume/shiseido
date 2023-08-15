@@ -32,7 +32,7 @@ export const productList: TProduct[] = [
     },
     {
         id:3,
-        name: 'Wrinkle Smoothing Eye Cream',
+        name: 'Wrinkle Eye Cream',
         image: '/images/products/wrinkle-smoothing-eye-cream.jpg',
         note: 3,
         price: '64.00',
@@ -42,7 +42,7 @@ export const productList: TProduct[] = [
     },
     {
         id:4,
-        name: 'Uplifting And Firming Cream Enriched',
+        name: 'Uplifting & Firming Cream',
         image: '/images/products/uplifting-and-firming-cream-enriched.jpg',
         note: 2,
         price: '140.00',
